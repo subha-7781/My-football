@@ -1,0 +1,90 @@
+<html>
+<head>
+    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3c0081;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: #0400fa;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .description,
+        .colors {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+
+        .colors ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .colors li {
+            margin: 10px 0;
+        }
+
+        .club {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    </style>
+    <title>Premier League About</title>
+</head>
+<body>
+   
+    
+    <header>
+        <h1><u>Premier League</u></h1>
+        <p id="mouse">Experience the thrill of English football!</p>
+    </header>
+   
+
+    </script>
+
+    <section class="description">
+        <h2>About Premier League</h2>
+        <p>The Premier League is the top professional football league in England. It was founded in 1992 and has become one of the most-watched and competitive football leagues in the world.</p>
+        <p>With 20 teams competing each season, fans witness intense battles for the coveted title and thrilling moments that make the Premier League a global sensation.</p>
+    </section>
+
+    <section class="colors">
+        <h2>Club Colors</h2>
+        <ul>
+            <li><span class="club" style="background-color: #E41B17;"></span> Manchester United</li>
+            <li><span class="club" style="background-color: #092ae7;"></span> Chelsea</li>
+            <li><span class="club" style="background-color: #ff0000;"></span> Liverpool</li>
+            
+        </ul>
+    </section>
+    <script>
+        document.getElementById("mouse").onmouseenter=function(){mouseEnter()};
+        document.getElementById("mouse").onmouseenter=function(){mouseLeave()};
+function mouseEnter()
+{
+    document.getElementById("mouse").style.color="red";
+}
+function mouseLeave()
+{
+    document.getElementById("mouse").style.color="blue";
+}
+</script>
+</body>
+</html>
